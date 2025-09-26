@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dkefnm2vd5on5"
+path="res://.godot/imported/Table.obj-1d801c5f60af3750aaf630aa8ead82df.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Table.obj-1d801c5f60af3750aaf630aa8ead82df.mesh"]
+
+source_file="res://assets/building/FreeKitchenProps/FreeKitchenProps/Assets/OBJ/Table.obj"
+dest_files=["res://.godot/imported/Table.obj-1d801c5f60af3750aaf630aa8ead82df.mesh", "res://.godot/imported/Table.obj-1d801c5f60af3750aaf630aa8ead82df.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

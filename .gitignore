@@ -1,0 +1,62 @@
+# --- Godot cache/import ---
+.godot/                    # editor cache
+.import/                   # imported assets cache (folder)
+**/*.import                # per-asset import metadata
+
+# --- Build/exports (โฟลเดอร์ที่คุณใช้แพ็ก .exe/.pck/.apk) ---
+/builds/
+/export/
+/dist/
+/bin/
+*.pck
+*.exe
+*.apk
+*.aab
+*.ipa
+*.zip
+
+# --- Platform-specific (ถ้ามี) ---
+/android/                  # Godot Android build tree
+/ios/
+.macos/
+windows/
+linux/
+
+# --- Editor/IDE junk ---
+.vscode/
+.vscode/*
+.idea/
+*.code-workspace
+
+# --- OS junk ---
+Thumbs.db
+.DS_Store
+
+# --- Temp / logs ---
+*.tmp
+*.temp
+*.log
+
+# --- Secrets / env ---
+*.env
+.env.*
+secrets/
+**/keys/*
+**/*token*.txt
+**/*secret*.txt
+
+# --- Large model / AI (ถ้าเผลอใส่) ---
+ai/models/
+*.gguf
+*.safetensors
+*.pt
+*.onnx
+
+# --- Optional graphics backups ---
+*.blend1
+*.blend2
+*.kra~
+*.psd~
+
+# --- Godot user data (อย่าใส่ใน repo) ---
+user://

@@ -1,0 +1,5 @@
+[gd_scene format=3]
+[node name="Splash" type="Control"]
+[node name="Timer" type="Timer" parent="."]
+[ext_resource type="Script" path="res://scenes/flow/Splash.gd" id="1"]
+script = ExtResource("1")
