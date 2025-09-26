@@ -1,14 +1,17 @@
-<<<<<<< HEAD
-# --- Godot cache/import ---
-.godot/                    # editor cache
-.import/                   # imported assets cache (folder)
-**/*.import                # per-asset import metadata
+# === ไม่เอา assets ขึ้น Git (คุณทำคนเดียว) ===
+/assets/
 
-# --- Build/exports (โฟลเดอร์ที่คุณใช้แพ็ก .exe/.pck/.apk) ---
+# === Godot caches/imports (ไม่ต้องอยู่ใน Git) ===
+/.godot/
+/.import/
+**/*.import
+
+# === Build/Export outputs ===
 /builds/
 /export/
 /dist/
 /bin/
+/out/
 *.pck
 *.exe
 *.apk
@@ -16,29 +19,23 @@
 *.ipa
 *.zip
 
-# --- Platform-specific (ถ้ามี) ---
-/android/                  # Godot Android build tree
+# === Platform/IDE junk ===
+/android/
 /ios/
-.macos/
-windows/
-linux/
-
-# --- Editor/IDE junk ---
 .vscode/
-.vscode/*
 .idea/
 *.code-workspace
 
-# --- OS junk ---
+# === OS junk ===
 Thumbs.db
 .DS_Store
 
-# --- Temp / logs ---
+# === Temp / logs ===
 *.tmp
 *.temp
 *.log
 
-# --- Secrets / env ---
+# === Secrets / env ===
 *.env
 .env.*
 secrets/
@@ -46,36 +43,15 @@ secrets/
 **/*token*.txt
 **/*secret*.txt
 
-# --- Large model / AI (ถ้าเผลอใส่) ---
+# === ใหญ่/โมเดล AI (อย่าใส่ถ้าไม่จำเป็น) ===
 ai/models/
 *.gguf
 *.safetensors
 *.pt
 *.onnx
 
-# --- Optional graphics backups ---
+# === กราฟิก/ไฟล์ชั่วคราวจากโปรแกรมแต่งภาพ ===
 *.blend1
 *.blend2
 *.kra~
 *.psd~
-
-# --- Godot user data (อย่าใส่ใน repo) ---
-user://
-=======
-# Godot 4+ specific ignores
-.godot/
-.nomedia
-
-# Godot-specific ignores
-.import/
-export.cfg
-export_credentials.cfg
-
-# Imported translations (automatically generated from CSV files)
-*.translation
-
-# Mono-specific ignores
-.mono/
-data_*/
-mono_crash.*.json
->>>>>>> c086877895815c58df27c569a407f5de27073c27
